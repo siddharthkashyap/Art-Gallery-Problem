@@ -136,6 +136,7 @@ int find_left(Pt p/**<given point*/)
 }
 
 /// handles regular point
+// extra line
 void triangulation :: handle_regular_vertex(Pt p/**<given point*/)
 {
     Pt p1 = get_nxt_Pt(p);
